@@ -1,0 +1,3 @@
+[submodule "Packages Source"]
+	path = Packages Source
+	url = https://github.com/DelacorLLC/GDevCon1_VIPMDemo_Packages_Source.git
