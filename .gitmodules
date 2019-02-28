@@ -1,3 +1,6 @@
 [submodule "Packages Source"]
 	path = Packages Source
 	url = https://github.com/DelacorLLC/GDevCon1_VIPMDemo_Packages_Source.git
+[submodule "Libraries/CML UI"]
+	path = Libraries/CML UI
+	url = https://github.com/DelacorLLC/GDevCon1_VIPMDemo_CML-UI.git
