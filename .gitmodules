@@ -4,3 +4,6 @@
 [submodule "Libraries/CML UI"]
 	path = Libraries/CML UI
 	url = https://github.com/DelacorLLC/GDevCon1_VIPMDemo_CML-UI.git
+[submodule "Libraries/Launcher Support"]
+	path = Libraries/Launcher Support
+	url = https://github.com/DelacorLLC/GDevCon1_VIPMDemo_Launcher-Support.git
