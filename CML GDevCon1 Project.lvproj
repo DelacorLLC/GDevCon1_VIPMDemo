@@ -148,6 +148,48 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Executable for CML DQMH VIPM GDevCon 1 Demo" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{ABC5789E-5575-48A0-BCA3-EEEB2BA825B3}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{9193DEE8-812B-4945-8C5B-99D4F59017CC}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{E9D7BB19-A80F-4D0A-A16A-D2CEA8134676}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Executable for CML DQMH VIPM GDevCon 1 Demo</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/CML DQMH VIPM Demo/Executable for CML DQMH VIPM GDevCon 1 Demo</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Support/Launcher Support.lvlib/Pre-Build Action.vi</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{C4EABF48-4A61-469E-8011-66018E5C9AE4}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">CML-DQMH-VIPM-GDevCon-1-Demo.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/CML DQMH VIPM Demo/Executable for CML DQMH VIPM GDevCon 1 Demo/CML-DQMH-VIPM-GDevCon-1-Demo.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/CML DQMH VIPM Demo/Executable for CML DQMH VIPM GDevCon 1 Demo/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{87D50BAC-AF5B-41EC-8CEA-9CE8708200A6}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CML Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Delacor</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Executable for CML DQMH VIPM GDevCon 1 Demo</Property>
+				<Property Name="TgtF_internalName" Type="Str">Executable for CML DQMH VIPM GDevCon 1 Demo</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Delacor</Property>
+				<Property Name="TgtF_productName" Type="Str">Executable for CML DQMH VIPM GDevCon 1 Demo</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{ECDE4DC8-26AC-420D-938B-22902F64C988}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">CML-DQMH-VIPM-GDevCon-1-Demo.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>
